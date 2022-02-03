@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(30, 23, 47);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajalogo img{
+    width: 120%;
+}
+
+.cajaMenu{
+    width: 30%;
+}
+
+.decorado{
+    background: linear-gradient(rgb(136, 64, 213), rgb(11, 123, 213));
+    margin: 5px;
+    padding: 5px;
+}
+
+ul{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    font-size: 2vh;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.section1{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cajaG{
+    width: 50%;
+    background-color: rgb(46, 37, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 8vh;
+}
+
+.caja1{
+    margin-top: 10%;
+    color: white;
+    width: 45%;
+    font-size: 2.3vh;
+}
+
+.cajaBotones{
+    border: 2px solid rgb(85, 78, 111);
+    border-radius: 7px;
+    height: 65px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.button1{
+    width: 55%;
+    font-size: 2vh;
+    color: rgb(235, 102, 170);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button2{
+    width: 45%;
+    font-size: 2vh;
+    color: white;
+    background-color: rgb(46, 37, 80);
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+.caja2{
+    width: 50%;
+    background-image: url(/RepasoFlexBox/images/hojasFondo.jfif);
+    background-size: cover;
+}
+
+.caja2 img{
+    width: 25%;
+    margin-left: 15%;
+    margin-top:15%;
+}
+
+.section2{
+    width: 100%;
+    height: 680px;
+    background-color: rgb(241, 242, 247);
+    padding-top: 3vh;
+}
+
+.h2s{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    color: rgb(235, 102, 170);
+    margin-bottom: 5vh;
+}
+
+
+.cajaSection2{
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.caja3{
+    width: 50%;
+}
+
+.caja3 img{
+    width: 70%;
+}
+
+.caja4{
+    width: 25%;
+    font-size: 2vh;
+}
+
+.h4{
+    font-size: 3.5vh;
+    color: rgb(212, 84, 150);
+}
+
+.p{
+    font-size: 18px
+}
+
+.h6{
+    font-size: 2.5vh;
+    color: rgb(221, 94, 160);
+}
+
+.h6ss{
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+}
+
+.cajaViñetas{
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+}
+
+.section3{
+    background-color: rgb(30, 23, 47);
+    color: white;
+    padding-top: 2%;
+    width: 100%;
+    height: 700px;
+}
+
+.caja5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 5%;
+}
+
+.h2ss{
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+    margin-bottom: 6vh;
+}
+
+.ps{
+    text-align: center;
+}
+
+.caja6{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.caja7{
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.caja7c1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.caja7c1 img{
+    width: 20%;
+}
+
+.caja7c1 h3{
+    font-size: 3vh;
+    color: rgb(216, 74, 147);
+}
+
+.caja7c2{
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 5%;
+}
+
+.caja7c3{
+    font-size: 2vh;
+    padding: 5%;
+    padding-left: 25%;
+}
+
+.caja7c4{
+    font-size: 2vh;
+    padding: 5%;
+    padding-left: 8%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.caja7c5{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.caja7c5 button{
+    width: 50%;
+    height: 55px;
+    background: linear-gradient(to right, rgb(237, 93, 167), rgb(243, 24, 136));
+    border: white;
+    color: white;
+    border-radius: 5px;
+}
+
+.caja8{
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.caja8c1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.caja8c1 img{
+    width: 20%;
+}
+.h7s{
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+}
+
+.caja8c1 h3{
+    font-size: 3vh;
+    color: rgb(30, 23, 47);
+}
+
+.caja8c2{
+    font-size: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    padding: 5%;
+}
+
+.caja8c3{
+    font-size: 2vh;
+    padding: 5%;
+    padding-left: 25%;
+}
+
+.caja8c4{
+    font-size: 2vh;
+    padding: 5%;
+    padding-left: 8%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.caja8c5{
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.caja8c5 button{
+    width: 50%;
+    height: 55px;
+    background: linear-gradient(to right, rgb(30, 23, 47), rgb(38, 29, 58));
+    border: white;
+    color: white;
+    border-radius: 5px;
+}
+
+.caja9{
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 5vh;
+}
+
+footer{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer img{
+    width: 20%;
+}
